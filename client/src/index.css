@@ -1,0 +1,7 @@
+/* Tailwind CSS base styles */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Optional: Custom button styles can go here if you want to override defaults */
+
