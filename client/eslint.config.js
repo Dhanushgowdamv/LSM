@@ -25,7 +25,9 @@ export default [
     },
     rules: {
       ...js.configs.recommended.rules,
-       "no-undef": "off",
+      "react/prop-types": "off",
+      "no-unused-vars": "off",
+      "unknownAtRules":"off",
       ...react.configs.recommended.rules,
       ...react.configs['jsx-runtime'].rules,
       ...reactHooks.configs.recommended.rules,
